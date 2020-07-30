@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+/*font-family: 'Noto Sans JP', sans-serif;
+ - font-family: 'Sora', sans-serif;
+
+/*Aqui empieza los estilos del Header*/
+
+.header__nav--title{
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+}
+
+.header__nav--title span{
+    color: lightgray;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    background-color: #e98007;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1168px;
+    height: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.header__nav__div--B1{
+    background-color: #5a17ff;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 90px;
+    height: 40px;
+    padding: 0 20px;                      /*Estilos primer boton*/
+    margin-right: 10px;
+    border-radius: 40px;
+}
+
+.header__nav__div--B2{
+    background-color: #fff;
+    color: #e98007;
+    font-family: 'Noto Sans JP', sans-serif;
+    height: 40px;
+    width: 106px;                         /*Estilos segundo boton*/
+    padding: 0 20px;
+    margin-right: 10px;
+    border-radius: 40px;
+}
+
+.header__nav__div--B3{
+    background-color: #e98007;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #fff;
+    height: 40px;
+    width: 77px;
+    padding: 0 16px;
+}
+/*Aqui termina el header*/
+
+/*Aqui empieza los estilos del main*/
+
+.container{
+    display: grid;
+    grid-template-columns: 568px 568px;
+    grid-template-rows: 332px;
+    justify-content: center;
+    background-color: #5a17ff;
+}
+
+.container--div{
+    justify-self: center;
+    align-self: center;
+}
+
+.container__article--h2{
+    font-family: 'Sora', sans-serif;
+    font-size: 46px;
+    color: #fff;
+}
+
+.container__article--h2 span{
+    color: #e98007;
+}
+
+.container__article--h3{
+    font-family: 'Sora', sans-serif;
+    color: #fff;
+    font-size: 12px;
+}
+
+.container--figure{
+    justify-self: center;
+    align-self: center;
+}
+
+.container__figure--img{
+    width: 400px;
+    height: 300px;
+    
+}
+
+/*Aqui termina la primera seccion */
+
+/* Estilos barra de busqueda*/
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e98007;
+    height: 100px;
+    
+}
+
+.form--input1{
+    height: 40px;
+    width: 220px;
+    padding: 0 12px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Sora', sans-serif;
+}
+
+.form--input2{
+    height: 40px;
+    width: 324px;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 0 12px;
+}
+
+.form--input2:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.form--input2::placeholder{
+    color: #d0d0d0;
+    font-family: 'Sora', sans-serif;
+}
+
+.form--input3{
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    color: #e98007;
+    font-family: 'Sora', sans-serif;
+}
+
+.form--input3:hover{
+    cursor: pointer;
+    box-shadow: 2px 6px blue;
+}
+
+/*              */
+
+/* Segunda seccion */
+
+.div{
+    padding-top: 30px;
+    background-color: #5a17ff; 
+    height: 300px;
+}
+
+.article{
+    margin-left: 50px;
+    
+}
+
+.article--h2{
+    font-family: 'Sora', sans-serif;
+    font-size: 46px;
+    color: #fff;
+}
+
+.article__h2--orange{
+    font-family: 'Sora', sans-serif;
+    font-size: 50px;
+    color: #e98007; 
+}
+
+.article--h3{
+    font-family: 'Sora', sans-serif;
+    color: #fff;
+    font-size: 12px;
+}
+/*              */
+
+/*Seccion fotos de expertos*/
+
+.aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #5a17ff;
+    padding: 0 40px;
+    height: 250px;
+    
+}
+
+.aside--div{
+    background-color: #d0d0d0;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.aside__div--img{
+    position: relative;
+    z-index: 1;
+    bottom: 20px;
+    padding-left: 5px;
+}
+
+.aside__div--h4{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.aside__div--h2{
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+}
+
+/*               */
+
+/* Seccion de Videos */
+
+.section--videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #e98007;
+}
+
+.div--video{
+    width: 480px;
+    height: 280px;
+}
