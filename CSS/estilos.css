@@ -137,6 +137,7 @@
     padding: 0 12px;
     border-radius: 10px;
     margin-right: 10px;
+    outline-style: none;
     font-family: 'Sora', sans-serif;
 }
 
@@ -146,6 +147,7 @@
     border-radius: 10px;
     margin-right: 10px;
     padding: 0 12px;
+    outline-style: none;
 }
 
 .form--input2:hover{
@@ -163,6 +165,7 @@
     width: 100px;
     border-radius: 25px;
     color: #e98007;
+    outline-style: none;
     font-family: 'Sora', sans-serif;
 }
 
@@ -279,4 +282,45 @@
     margin-top: 50px;
     border-radius: 10px;
     box-shadow: 2px 4px 10px 2px black;
+}
+
+/*         */
+
+/* Estilos seccion suscripcion*/
+
+.footer{
+    background-color: #5a17ff;
+    height: 300px;
+}
+
+.section--footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.footer--div{
+    margin-left: 40px;
+}
+
+.footer--title{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.footer--item{
+    color: white;
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.footer--icon{
+    width: 50px;
+    height: 50px;
+
 }
